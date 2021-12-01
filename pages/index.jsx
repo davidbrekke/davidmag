@@ -1,6 +1,6 @@
 import Layout from '@components/layout'
 
-export default function App({}) {
+export default function App() {
   return (
     <Layout>
       <header className="flex flex-col text-5xl items-center">
@@ -13,9 +13,3 @@ export default function App({}) {
     </Layout>
   )
 }
-
-// export async function getServerSideProps({ params, req, res }) {
-//   return {
-//     props: {},
-//   }
-// }
