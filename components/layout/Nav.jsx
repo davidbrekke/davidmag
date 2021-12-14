@@ -23,7 +23,7 @@ const Nav = () => {
       <div
         className={`${
           !isOpen && 'hidden'
-        } flex flex-col items-center absolute text-gray-500 top-24 right-6 py-2 px-4 shadow rounded-lg hover:shadow-lg transition`}
+        } flex flex-col items-center absolute text-2xl text-gray-500 top-24 right-6 py-2 px-4 shadow rounded-lg hover:shadow-lg transition`}
       >
         {navItems.map(({ title, url }, i) => (
           <Link href={url} key={i}>
