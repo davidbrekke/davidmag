@@ -1,27 +1,28 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import { MenuAlt3Icon } from '@heroicons/react/solid'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
     { url: '/', title: 'home' },
-    { url: '/blog', title: 'blog' },
+    { url: '/github', title: 'github' },
+    // { url: '/blog', title: 'blog' },
     // { url: '/contact', title: 'contact' },
   ]
 
   return (
     <>
-      <btn
-        className="absolute top-6 right-6 py-2 px-4 shadow rounded-lg hover:text-indigo-400 hover:shadow-lg transition cursor-pointer"
+      <MenuAlt3Icon
+        className="absolute h-14 top-6 right-6 py-2 px-4 shadow rounded-lg text-gray-500 hover:text-indigo-400 hover:shadow-lg transition cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
-      >
-        toggle nav
-      </btn>
+      />
+
       <div
         className={`${
           !isOpen && 'hidden'
-        } flex flex-col items-center absolute top-16 right-6 py-2 px-4 shadow rounded-lg`}
+        } flex flex-col items-center absolute text-gray-500 top-24 right-6 py-2 px-4 shadow rounded-lg hover:shadow-lg transition`}
       >
         {navItems.map(({ title, url }, i) => (
           <Link href={url} key={i}>

@@ -10,7 +10,7 @@ const Layout = ({ children, title }) => (
     </Head>
 
     <main className="w-screen h-screen flex flex-col items-center justify-evenly">
-      {/* <Nav /> */}
+      <Nav />
       {children}
     </main>
   </>
