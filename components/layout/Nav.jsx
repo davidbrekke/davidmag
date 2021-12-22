@@ -8,7 +8,8 @@ const Nav = () => {
   const navItems = [
     { url: '/', title: 'home' },
     { url: '/github', title: 'github' },
-    { url: '/react', title: 'react' },
+    // { url: '/resume', title: 'resume' },
+    // { url: '/react', title: 'react' },
     // { url: '/blog', title: 'blog' },
     // { url: '/contact', title: 'contact' },
   ]
