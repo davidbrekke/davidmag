@@ -1,4 +1,5 @@
 import Layout from '@components/layout'
+import EthBlock from '@components/ethBlock'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <h3 className="text-gray-600 text-xl pt-2">
           davidjamesmagnuson@gmail.com
         </h3>
+        <EthBlock />
       </header>
     </Layout>
   )
