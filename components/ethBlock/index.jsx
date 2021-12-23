@@ -12,8 +12,11 @@ const EthBlock = () => {
     }
   }, [])
   return (
-    <div className="text-gray-600 text-lg absolute bottom-10 flex align-center items-center space-x-3">
-      <p id="ethblock">eth block: {blockNumber}</p>
+    <div
+      id="ethblock"
+      className="text-gray-600 text-lg absolute bottom-10 flex align-center items-center space-x-3"
+    >
+      <p>eth block: {blockNumber}</p>
       <ConnectWallet />
     </div>
   )
