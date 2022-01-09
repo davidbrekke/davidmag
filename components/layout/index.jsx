@@ -9,7 +9,7 @@ const Layout = ({ children, title }) => (
       <meta author="david magnuson" />
     </Head>
 
-    <main className="w-screen h-screen flex flex-col items-center justify-evenly max-w-5xl m-auto p-4">
+    <main className="min-w-screen min-h-screen flex flex-col scroll items-center justify-evenly max-w-5xl m-auto p-4">
       <Nav />
       {children}
     </main>
