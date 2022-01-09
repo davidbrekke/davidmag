@@ -6,9 +6,9 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { url: '/', title: 'home' },
-    { url: '/github', title: 'github' },
-    // { url: '/resume', title: 'resume' },
+    { url: 'mailto:davidjamesmagnuson@gmail.com', title: 'email' },
+    { url: 'https://github.com/davidbrekke', title: 'github' },
+    { url: 'https://twitter.com/d_mgnsn', title: 'twitter' },
     // { url: '/react', title: 'react' },
     // { url: '/blog', title: 'blog' },
     // { url: '/contact', title: 'contact' },
@@ -28,9 +28,9 @@ const Nav = () => {
       >
         {navItems.map(({ title, url }, i) => (
           <Link href={url} key={i}>
-            <p className="hover:text-indigo-400 cursor-pointer transition">
+            <a target="_blank" className="hover:text-indigo-400 cursor-pointer transition">
               {title}
-            </p>
+            </a>
           </Link>
         ))}
       </div>
