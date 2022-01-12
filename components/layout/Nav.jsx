@@ -9,6 +9,7 @@ const Nav = () => {
     { url: 'mailto:davidjamesmagnuson@gmail.com', title: 'email' },
     { url: 'https://github.com/davidbrekke', title: 'github' },
     { url: 'https://twitter.com/d_mgnsn', title: 'twitter' },
+    { url: 'https://www.instagram.com/david_magnuson/', title: 'instagram' },
     // { url: '/react', title: 'react' },
     // { url: '/blog', title: 'blog' },
     // { url: '/contact', title: 'contact' },
