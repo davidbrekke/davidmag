@@ -1,0 +1,6 @@
+tasks:
+  - name: portfolio site
+    init: yarn install
+    command: yarn dev
+ports:
+  - port: 3000
