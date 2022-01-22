@@ -6,12 +6,13 @@
 
 ## pages
 
-| url     | page description                | status |
-| ------- | ------------------------------- | ------ |
-| /       | home page                       | done   |
-| /resume | resume page                     | todo   |
-| /github | redirect to github profile      | done   |
-| /react  | redirect to react in a 🌰 shell | done   |
+| url      | page description                | status |
+| -------- | ------------------------------- | ------ |
+| /        | home page                       | done   |
+| /resume  | resume page                     | todo   |
+| /github  | redirect to github profile      | done   |
+| /twitter | redirect to twitter profile     | done   |
+| /react   | redirect to react in a 🌰 shell | done   |
 
 ## todo
 
