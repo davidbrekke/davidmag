@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export default ({ title, url }) => (
+const NavModalLink = ({ title, url }) => (
   <Link href={url}>
     <a
       target="_blank"
@@ -9,3 +9,5 @@ export default ({ title, url }) => (
     </a>
   </Link>
 )
+
+export default NavModalLink
