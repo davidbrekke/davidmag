@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { MenuAlt3Icon } from '@heroicons/react/solid'
 
-import NavModal from './NavModal'
+import NavModal from '@components/layout/nav/NavModal'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)

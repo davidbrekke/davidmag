@@ -1,5 +1,5 @@
 import { navItems } from '@lib/navItems'
-import NavModalLink from './NavModalLink'
+import NavModalLink from '@components/layout/nav/NavModalLink'
 
 const NavModal = ({ isOpen }) =>
   isOpen && (
