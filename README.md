@@ -6,17 +6,21 @@
 
 ## pages
 
-| url   | page description |
-| ----- | ---------------- |
-| /     | home page        |
-| /blog | blog page        |
+| url     | page description                | status |
+| ------- | ------------------------------- | ------ |
+| /       | home page                       | done   |
+| /resume | resume page                     | todo   |
+| /github | redirect to github profile      | done   |
+| /react  | redirect to react in a 🌰 shell | done   |
 
 ## todo
 
-- [ ] add resume
-- [ ] add twitter link
-- [ ] add linkdin link
+- [ ] add resume page
+- [x] update about me
+- [x] add github profile
+- [x] add twitter link
+- [x] add instagram link
+- [x] add mirror link
+- [x] add rainbow link
 - [ ] add wallet support
 - [ ] deploy on ipfs ?
-- [ ] add blog
-- [ ] add react blog post
