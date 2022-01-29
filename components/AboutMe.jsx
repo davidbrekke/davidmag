@@ -53,7 +53,12 @@ const Passion = () => (
 )
 
 const Link = ({ href, underline = true, children }) => (
-  <a href={href} target="_blank" className={underline && 'underline'}>
+  <a
+    href={href}
+    target="_blank"
+    rel="noreferrer"
+    className={underline && 'underline'}
+  >
     {children}
   </a>
 )
