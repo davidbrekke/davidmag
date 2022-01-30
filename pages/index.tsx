@@ -4,7 +4,7 @@ import Connect from '@components/Connect'
 
 export default function App() {
   return (
-    <Layout>
+    <Layout title={null}>
       <div className="flex flex-col space-y-4 items-center text-center">
         <span className="text-gray-500 text-4xl">{`hi i'm`}</span>
         <h1 className="text-purple-600 text-6xl">

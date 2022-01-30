@@ -2,7 +2,6 @@
   "name": "davidmag",
   "version": "0.1.0",
   "description": "personal site",
-  "main": "index.js",
   "author": "david magnuson",
   "license": "MIT",
   "private": true,
@@ -19,10 +18,13 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/node": "^17.0.13",
+    "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.0",
     "eslint": "<8.0.0",
     "eslint-config-next": "12.0.8",
     "postcss": "^8.4.4",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.5.5"
   }
 }
