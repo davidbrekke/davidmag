@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <>
       <MenuAlt3Icon
-        className="absolute h-14 top-4 right-4 py-2 px-4 shadow rounded-lg text-gray-500 hover:text-indigo-400 hover:shadow-lg transition cursor-pointer"
+        className="absolute h-14 top-4 right-4 py-2 px-4 shadow rounded-lg text-gray-500 hover:text-indigo-400 hover:shadow-lg hover:bg-gray-100 transition cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
       />
       <NavModal isOpen={isOpen} />
