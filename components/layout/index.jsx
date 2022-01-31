@@ -5,7 +5,7 @@ import Nav from '@components/layout/nav'
 const Layout = ({ children, title }) => (
   <>
     <Head>
-      <title>davidmag{title && ` | ${title}`}</title>
+      <title>david magnuson{title && ` | ${title}`}</title>
       <meta description="davidmag" />
       <meta author="david magnuson" />
     </Head>

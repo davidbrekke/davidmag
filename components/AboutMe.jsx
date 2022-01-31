@@ -12,6 +12,7 @@ export default AboutMe
 const Learning = () => (
   <p className="text-gray-500 text-2xl">
     currently, i am learning{' '}
+    <Link href="https://www.typescriptlang.org/">typescript</Link>,{' '}
     <Link href="https://soliditylang.org/">solidity</Link> & the{' '}
     <Link href="https://ethereum.org/en/developers/docs/evm/">
       ethereum virtual machine (EVM)
