@@ -9,12 +9,10 @@ const Layout = ({ children, title }) => (
       <meta description="davidmag" />
       <meta author="david magnuson" />
     </Head>
-    <Background>
-      <main className="min-w-screen min-h-screen flex flex-col scroll items-center justify-evenly max-w-5xl m-auto p-4">
-        <Nav />
-        {children}
-      </main>
-    </Background>
+    <main className="min-w-screen min-h-screen flex flex-col scroll items-center justify-evenly max-w-5xl m-auto p-4">
+      <Nav />
+      {children}
+    </main>
   </>
 )
 
