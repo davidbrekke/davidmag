@@ -19,7 +19,7 @@ export default AboutMe
 
 const Currently = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
-    <p className="font-bold">currently</p>
+    <p className="font-bold text-3xl">currently</p>
     <div className="flex flex-col">
       <p className="text-2xl">
         <i>building</i> <Link href="http://test.2loud.xyz">2loud.xyz</Link>
@@ -43,7 +43,7 @@ const Currently = () => (
 
 const Skills = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
-    <p className="font-bold">skills & knowledge</p>
+    <p className="font-bold text-3xl">skills & knowledge</p>
     <div className="flex flex-col text-2xl">
       <p>javascript & python</p>
       <p className="text-xl">typescript, solidity, swift, java, c#</p>
@@ -63,7 +63,7 @@ const Skills = () => (
 
 const Education = () => (
   <div className="flex flex-col items-center text-gray-500 text-3xl">
-    <p className="font-bold text-gray-500">software engineer</p>
+    <p className="font-bold text-4xl">software engineer</p>
     <p className="text-gray-500 text-xl">
       fall 2021 graduate of{' '}
       <Link href="https://dunwoody.edu/">dunwoody college of technology</Link>
@@ -78,7 +78,7 @@ const Education = () => (
 
 const Interests = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
-    <p className="font-bold">interests</p>
+    <p className="font-bold text-3xl">interests</p>
     <p className="text-gray-500 text-2xl">
       {`full stack engineering, front-end architecture,
       blockchain & smart contracts, machine learning & data science, ui/ux design,
@@ -90,7 +90,7 @@ const Interests = () => (
 
 const Passion = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
-    <p className="font-bold">passion</p>
+    <p className="font-bold text-3xl">passion</p>
     <p className="text-gray-500 text-2xl">
       my main passion & goal is to expand the reach of technology to the world
       community so that everybody can benefit from the opportunities that
