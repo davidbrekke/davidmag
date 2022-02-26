@@ -29,7 +29,7 @@ const Currently = () => (
         </p>
       </p>
       <Divider min />
-      <p className="">
+      <p className="text-2xl">
         <i>learning</i> typescript, solidity & the ethereum virtual machine
         (EVM)
         <p className="text-lg">
@@ -45,12 +45,12 @@ const Skills = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold">skills & knowledge</p>
     <div className="flex flex-col text-2xl">
-      <p className="">
+      <p>
         javascript & python
-        <p className="text-xl">solidity, swift, java, c#</p>
+        <p className="text-xl">typescript, solidity, swift, java, c#</p>
       </p>
       <Divider min />
-      <p>reactjs, nextjs, nodejs, flask</p>
+      <p className="text-2xl">reactjs, nextjs, nodejs, flask</p>
       <Divider min />
       <p>rest, graphql, aws, azure, sql, mongo, orm</p>
       <Divider min />
