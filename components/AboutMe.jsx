@@ -20,8 +20,8 @@ export default AboutMe
 const Currently = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold">currently</p>
-    <div className="flex flex-col text-2xl">
-      <p>
+    <div className="flex flex-col">
+      <p className="text-2xl">
         <i>building</i> <Link href="http://test.2loud.xyz">2loud.xyz</Link>
         <p className="text-lg">audio file sharing social application</p>
         <p className="text-lg">
@@ -32,10 +32,10 @@ const Currently = () => (
       <p className="text-2xl">
         <i>learning</i> typescript, solidity & the ethereum virtual machine
         (EVM)
-        <p className="text-lg">
-          & other web3 technologies such as ipfs, graph protocol, oracles &
-          rollups
-        </p>
+      </p>
+      <p className="text-lg">
+        & other web3 technologies such as ipfs, graph protocol, oracles &
+        rollups
       </p>
     </div>
   </div>
@@ -45,10 +45,8 @@ const Skills = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold">skills & knowledge</p>
     <div className="flex flex-col text-2xl">
-      <p>
-        javascript & python
-        <p className="text-xl">typescript, solidity, swift, java, c#</p>
-      </p>
+      <p>javascript & python</p>
+      <p className="text-xl">typescript, solidity, swift, java, c#</p>
       <Divider min />
       <p className="text-2xl">reactjs, nextjs, nodejs, flask</p>
       <Divider min />
