@@ -20,7 +20,7 @@ export default AboutMe
 const Currently = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold">currently</p>
-    <div className="flex flex-col">
+    <div className="flex flex-col text-2xl">
       <p>
         <i>building</i> <Link href="http://test.2loud.xyz">2loud.xyz</Link>
         <p className="text-lg">audio file sharing social application</p>
@@ -44,7 +44,7 @@ const Currently = () => (
 const Skills = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold">skills & knowledge</p>
-    <div className="flex flex-col">
+    <div className="flex flex-col text-2xl">
       <p className="">
         javascript & python
         <p className="text-xl">solidity, swift, java, c#</p>
