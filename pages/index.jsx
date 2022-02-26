@@ -8,7 +8,7 @@ export default function App() {
       <div className="flex flex-col space-y-4 items-center text-center">
         <span className="text-gray-500 text-4xl">{`hi i'm`}</span>
         <h1 className="text-purple-600 text-6xl">
-          <strong>david magnuson</strong>
+          <strong>david j magnuson</strong>
         </h1>
         <AboutMe />
         <Connect />
