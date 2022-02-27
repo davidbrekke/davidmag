@@ -70,7 +70,7 @@ const Education = () => (
     </p>
     <p className="text-gray-500 text-lg">
       <Link href="https://catalog.dunwoody.edu/catalog-student-handbook/academic-programs/engineering/software-engineering-seng-bachelor-science/#text">
-        bachelors of science in software engineering
+        bachelor of science in software engineering
       </Link>
     </p>
   </div>
