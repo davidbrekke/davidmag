@@ -22,7 +22,7 @@ const Currently = () => (
     <p className="font-bold text-3xl">currently</p>
     <div className="flex flex-col">
       <p className="text-2xl">
-        <i>building</i> <Link href="http://test.2loud.xyz">2loud.xyz</Link>
+        <i>building</i> <Link href="https://2loud.xyz">2loud.xyz</Link>
         <p className="text-lg">audio file sharing social application</p>
         <p className="text-lg">
           built with nextjs, typescript, tailwind & supabase
