@@ -4,9 +4,9 @@ const AboutMe = () => (
     <Divider />
     <Education />
     <Divider />
-    <Skills />
-    <Divider />
     <Currently />
+    <Divider />
+    <Skills />
     <Divider />
     <Interests />
     <Divider />
@@ -21,6 +21,13 @@ const Currently = () => (
   <div className="flex flex-col items-center text-gray-500 text-2xl">
     <p className="font-bold text-3xl">currently</p>
     <div className="flex flex-col">
+      <p className="text-2xl">
+        Software Support Developer @{' '}
+        <Link href="https://karmacheck.com/">
+          <span className="text-blue-500">karmacheck</span>
+        </Link>
+      </p>
+      <Divider min />
       <p className="text-2xl">
         <i>building</i> <Link href="https://2loud.xyz">2loud.xyz</Link>
         <p className="text-lg">audio file sharing social application</p>
@@ -48,9 +55,9 @@ const Skills = () => (
       <p>javascript & python</p>
       <p className="text-xl">typescript, solidity, swift, java, c#</p>
       <Divider min />
-      <p className="text-2xl">reactjs, nextjs, nodejs, flask</p>
+      <p className="text-2xl">reactjs, nextjs, nodejs, vuejs, flask</p>
       <Divider min />
-      <p>rest, graphql, aws, azure, sql, mongo, orm</p>
+      <p>rest, graphql, serverless, aws, azure, sql, mongo, orm</p>
       <Divider min />
       <p>css, css in js, utility classes (tailwind)</p>
       <Divider min />
